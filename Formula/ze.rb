@@ -4,28 +4,28 @@
 class Ze < Formula
   desc "Fast, minimal text editor with Emacs keybindings"
   homepage "https://github.com/sanohiro/ze"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sanohiro/ze/releases/download/v1.2.0/ze-macos-aarch64.tar.gz"
-      sha256 "c44356cfee23cb70f8d1abaff4b521521a9071fb55830b5067b300a3fd5a9b53"
+      url "https://github.com/sanohiro/ze/releases/download/v1.2.1/ze-macos-aarch64.tar.gz"
+      sha256 "a92cfc8c020ace79a4b6ad3e30bbb521043ca00bb7af26ef662148f3d9a51730"
     end
     on_intel do
-      url "https://github.com/sanohiro/ze/releases/download/v1.2.0/ze-macos-x86_64.tar.gz"
-      sha256 "05d1a35d6593f5bb800f1659339d45143ad5b8e3dd29d82e14dcf385a888abd3"
+      url "https://github.com/sanohiro/ze/releases/download/v1.2.1/ze-macos-x86_64.tar.gz"
+      sha256 "6e2c304f5f04d9ac6244c9324775c1789ae4a003db34d1ac8f31e8111e41487b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sanohiro/ze/releases/download/v1.2.0/ze-linux-aarch64.tar.gz"
-      sha256 "b92d1ecfa21d1183ea3fd7c23b97b80ab429b931e6d0168ee69cfd73630a59d0"
+      url "https://github.com/sanohiro/ze/releases/download/v1.2.1/ze-linux-aarch64.tar.gz"
+      sha256 "c6d17ac8a0be9b59018783dbd7758b5c03d106954c5e2588fef42bec31459a89"
     end
     on_intel do
-      url "https://github.com/sanohiro/ze/releases/download/v1.2.0/ze-linux-x86_64.tar.gz"
-      sha256 "d3f04ae5ef4c3af57d5d6dca31081c647fd7a19a2bfee0b3c2955bb9e3204b1a"
+      url "https://github.com/sanohiro/ze/releases/download/v1.2.1/ze-linux-x86_64.tar.gz"
+      sha256 "cfd6dd00a28b0c10134119a29f03e9a51a0de20f70be42bda26aab0f5c28da34"
     end
   end
 
