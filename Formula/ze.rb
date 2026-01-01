@@ -10,22 +10,22 @@ class Ze < Formula
   on_macos do
     on_arm do
       url "https://github.com/sanohiro/ze/releases/download/v1.3.3/ze-macos-aarch64.tar.gz"
-      sha256 "bc86cd51340e344f0775e1449525817a58aea0805ca87020ee0b23d5bc9638e8"
+      sha256 "7ba1c587f44b4423bc60ae7058da48790b3eb9db8a66ae26beb1637abb9d369a"
     end
     on_intel do
       url "https://github.com/sanohiro/ze/releases/download/v1.3.3/ze-macos-x86_64.tar.gz"
-      sha256 "1cb9b51d48c3c15dde82e8d967c51bc0350af7e78e9e12f34909d98d61f8d703"
+      sha256 "5f1ca233c93612741654668c082fd9112c339e9abcaabc3b304d2d19fa6a7af1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/sanohiro/ze/releases/download/v1.3.3/ze-linux-aarch64.tar.gz"
-      sha256 "08a1780498c4414a96c1bd9f1fca6dc40239b465240a54fc3c3e17cf3ebc1d9d"
+      sha256 "0a94057b9cbc674bdacf3855d622b3417985d13afb893d03061118d1a065c7fe"
     end
     on_intel do
       url "https://github.com/sanohiro/ze/releases/download/v1.3.3/ze-linux-x86_64.tar.gz"
-      sha256 "69054aa8aaf663d5ee0660f840a8400d0c234560454cfc38d11a6c27e68779f4"
+      sha256 "e515232cdbde0dee17bdb1c38e3cbf8fb7fca48f0a8278c5cdc8a4d528763829"
     end
   end
 
